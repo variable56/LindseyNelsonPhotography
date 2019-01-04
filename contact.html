@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Lindsey Nelson</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Calendly link widget -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/navStyles.css" />
+    <title>Scheduling</title>
+  </head>
+
+  <body class="contactBody">
+    <!-- ============== Navbar CURRENTLY  ============== -->
+    <nav class="navbar navbar-expand-md navbar-dark py-1">
+      <a id="logo" class="navbar-brand" href="#"><img class=logo src="./assets/images/Logo.png" alt=""></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <!-- =========== Calendly link widget =========== -->
+            <a
+              class="nav-link"
+              href=""
+              onclick="Calendly.showPopupWidget('https://calendly.com/lindseynelson56/30min');return false;"
+              >Schedule</a
+            >
+            <!-- Calendly link widget end -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="packages.html">Packages</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="instagram.html">Instagram</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ============== CONTACT FORM AS OF 12/15/2018 ============== -->
+    <div class="container-fluid m-0 p-0">
+      <div class="formbox">
+        <main class="my-5 mx-md-5">
+          <div class="container bg-white py-4 mx-auto">
+            <h3 class="mx-5 mb-5 border-bottom pb-4">Contact</h3>
+            <form
+              action="https://formspree.io/lindseynelson56@gmail.com"
+              method="POST"
+            >
+              <div class="form-group mx-5">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  placeholder="Your Name Goes Here"
+                />
+              </div>
+              <div class="form-group mx-5">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div class="form-group mx-5">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-control"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <button type="submit" class="btn btn-lg btn-primary mt-5">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- ============== END CONTACT FORM AS OF 12/15/2018 ============== -->
+    <footer>&copy; 2018 Lindsey Nelson Photography</footer>
+  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  <!-- ========== Calendly script src ============= -->
+  <script
+    src="https://assets.calendly.com/assets/external/widget.js"
+    type="text/javascript"
+  ></script>
+  <script src="assets/js/scheduling.js"></script>
+</html>

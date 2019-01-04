@@ -1,0 +1,51 @@
+/* =========== Navbar Styles ============= */
+body {
+  background-color: #cbd0d8;
+}
+
+nav {
+  font-family: "Noto Serif SC", serif;
+  font-weight: normal;
+  background-color: #333d51;
+  font-size: 1.1em;
+}
+
+.navbar-brand {
+  color: white;
+}
+/* =========== Footer Styles ============= */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  font-family: "Noto Serif SC", serif;
+  font-weight: bold;
+  background-color: #d3ac2b;
+  height: 3em;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#galleryBody {
+  background-color: #cbd0d8;
+}
+
+.faqBody {
+  text-align: center;
+  font-family: "Noto Serif SC", serif;
+}
+
+.aboutBody {
+  font-family: "Noto Serif SC", serif;
+}
+
+.contactBody {
+  font-family: "Noto Serif SC", serif;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
